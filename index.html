@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Respeite seus Dados! Prisma ORM</title>
+
+  <link rel="stylesheet"
+        href="css/reset.css">
+  <link rel="stylesheet"
+        href="css/reveal.css">
+  <link rel="stylesheet"
+        href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet"
+        href="css/theme/mjv.css">
+  <link rel="stylesheet"
+        href="css/presentation.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet"
+        href="lib/css/monokai.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>
+          Respeite seus Dados!<br>
+          Prisma, o ORM de nova geração para node.js fortemente tipado.
+        </h2>
+      </section>
+      <section>
+        <p>Alan Jhonnes</p>
+        <img src="./img/profile.jpg" class="profile-image">
+        <p>Arquiteto de Sistemas</p>
+      </section>
+      <section>
+        <img src="./img/Logo-White.svg">
+      </section>
+      <section>
+        <h2>Prisma</h2>
+
+        <ul>
+          <li class="fragment">Prisma Client</li>
+          <li class="fragment">Prisma Migrate</li>
+          <li class="fragment">Prisma Studio</li>
+          <li class="fragment">Prisma CLI</li>
+          <li class="fragment">Prisma Query Engine</li>
+        </ul>
+        
+      </section>
+      <section>
+        <h2>Objetivos</h2>
+        <ul>
+          <li class="fragment">Pensar em objetos</li>
+          <li class="fragment">Queries e não classes</li>
+          <li class="fragment">Single source of truth</li>
+          <li class="fragment">Restrições saudáveis</li>
+          <li class="fragment">Abstração que faz a coisa certa ser fácil</li>
+          <li class="fragment">Queries fortemente tipadas</li>
+          <li class="fragment">Menos boilerplate</li>
+          <li class="fragment">Auto-complete no editor de código</li>
+        </ul>
+
+
+        <aside class="notes">
+          
+        </aside>
+      </section>
+      <section>
+        <h2>Produtividade</h2>
+        <img src="./img/produtividade-controle.png" style="background-color: white;">
+      </section>
+      <section>
+        <h2>Prisma schema</h2>
+        <img src="./img/schema.png">
+
+        <aside class="notes">
+          
+        </aside>
+      </section>
+      
+
+      <section>
+        <h2>Limitações</h2>
+        <ul>
+          <li>Transactions</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Bancos suportados</h2>
+        <ul>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>SQLite</li>
+          <li>SQL Server - Preview</li>
+          <li>MongoDB - Early Access</li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Perguntas</h1>
+      </section>
+      <section>
+        <h1>Obrigado!</h1>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'plugin/highlight/highlight.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
