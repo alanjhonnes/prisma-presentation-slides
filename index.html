@@ -44,7 +44,8 @@
       </section>
       <section>
         <p>Alan Jhonnes</p>
-        <img src="./img/profile.jpg" class="profile-image">
+        <img src="./img/profile.jpg"
+             class="profile-image">
         <p>Arquiteto de Sistemas</p>
       </section>
       <section>
@@ -60,13 +61,12 @@
           <li class="fragment">Prisma CLI</li>
           <li class="fragment">Prisma Query Engine</li>
         </ul>
-        
+
       </section>
       <section>
         <h2>Objetivos</h2>
         <ul>
-          <li class="fragment">Pensar em objetos</li>
-          <li class="fragment">Queries e não classes</li>
+          <li class="fragment">Developer Experience</li>
           <li class="fragment">Single source of truth</li>
           <li class="fragment">Restrições saudáveis</li>
           <li class="fragment">Abstração que faz a coisa certa ser fácil</li>
@@ -77,27 +77,111 @@
 
 
         <aside class="notes">
-          
+
         </aside>
       </section>
       <section>
         <h2>Produtividade</h2>
-        <img src="./img/produtividade-controle.png" style="background-color: white;">
+        <img src="./img/produtividade-controle.png"
+             style="background-color: white;">
       </section>
       <section>
         <h2>Prisma schema</h2>
         <img src="./img/schema.png">
 
         <aside class="notes">
-          
+
         </aside>
       </section>
-      
+
+      <section>
+        <section>
+          <h2>Prisma Migrate</h2>
+        </section>
+
+        <section>
+          <h2>Workflow de desenvolvimento</h2>
+          <ol>
+            <li class="fragment">Alteração de schema.prisma</li>
+            <li class="fragment">prisma db push</li>
+            <li class="fragment">prisma migrate dev</li>
+            <li class="fragment">git commit</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Schema Drift</h2>
+
+          <ul>
+            <li>Shadow Database</li>
+            <li>Detecção de drifts</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>Prisma Client</h2>
+        </section>
+        <section>
+          <img src="img/prisma-client-1.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-2.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-3.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-4.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-5.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-6.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-7.png">
+        </section>
+        <section>
+          <img src="img/prisma-client-8.png">
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>Introspection</h2>
+          <img src="./img/introspect.png"
+               style="background-color: white;">
+        </section>
+        <section>
+          <h2>Introspection</h2>
+          <img src="./img/introspect-2.png"
+               style="background-color: white;">
+        </section>
+      </section>
+
+      <section>
+        <h2>
+          Query Engine
+        </h2>
+        <img src="./img/client-engine.png"
+             style="background-color: white;">
+      </section>
+
+      <section>
+        <h2>Prisma Studio</h2>
+        <img src="./img/prisma-studio.png">
+      </section>
+
 
       <section>
         <h2>Limitações</h2>
         <ul>
-          <li>Transactions</li>
+          <li>Transactions longas</li>
+          <li>Modelos precisam ter PKs ou índice único</li>
+          <li>Manipulação de conexão com o banco de dados</li>
         </ul>
       </section>
       <section>
@@ -109,6 +193,11 @@
           <li>SQL Server - Preview</li>
           <li>MongoDB - Early Access</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Sobre o Prisma</h2>
+        <img src="./img/prisma-about.png">
       </section>
 
       <section>
